@@ -1,17 +1,18 @@
 *{
     margin: 0;
-    padding: 2;
+    padding: 0;
     box-sizing: border-box;
 }
 .navbar{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 0px;
+    background-color: aliceblue;
 }
 nav{
-flex: 1;
-text-align: right;
-text-decoration-line: none;
+    flex: 1;
+    text-align: right;
+    text-decoration-line: none;
 
 }
 nav ul{
@@ -25,11 +26,15 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color: #125372;;
+    color: #125372;
+    font-size: 25px;
 }
 .main{
     max-width: 1300px;
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
+}
+.logo{
+    padding: 0.5px 10px 0.5px 10px;
 }
