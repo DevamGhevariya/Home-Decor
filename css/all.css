@@ -24,7 +24,7 @@ nav ul li{
     display: inline-block;
     margin-right: 20px;
 }
-a{
+nav ul li a{
     text-decoration: none;
     color: #125372;
     font-size: 25px;
@@ -37,4 +37,15 @@ a{
 }
 .logo{
     padding: 0.5px 10px 0.5px 10px;
+}
+.container{
+    height: 10px;
+    width: 10px;
+    background: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-solid{
+    color: #125372;
 }
