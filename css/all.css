@@ -9,7 +9,7 @@
     padding: 0px;
     background-color: rgb(97, 112, 103);
 }
-nav{
+.nav{
     flex: 1;
     text-align: right;
     text-decoration-line: none;
@@ -65,19 +65,17 @@ body {
     background-color:#f9f9f9;
   }
   /* Responsive styles */
-  @media screen and (max-width: 100px) 
+  @media screen and (max-width: 600px) 
   {
-    .navbar .logo,
-    .nav-list 
+    .logo 
+    .navbar
+    .nav,
+    .main
     {
       text-align: center;
       width: 100%;
       float: none;
     }
   
-    .nav-list li 
-    {
-      display: block;
-      margin: 10px 0;
-    }
+  
   }
