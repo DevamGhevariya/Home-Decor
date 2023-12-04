@@ -68,8 +68,7 @@ body {
   @media screen and (max-width: 600px) 
   {
     .logo 
-    .navbar
-    .nav,
+    .navbar,
     .main
     {
       text-align: center;
