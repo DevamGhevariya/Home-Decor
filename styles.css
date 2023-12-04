@@ -6,9 +6,12 @@ body
 }
   
   .navbar {
-    background-color: #333;
     overflow: hidden;
     padding: 15px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(97, 112, 103);
+}
   }
   
   .navbar .logo {
