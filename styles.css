@@ -1,49 +1,42 @@
-body 
-{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-  
-  .navbar {
+.navbar {
     display: flex;
     padding: 0px;
-    background-color: rgb(192, 213, 200);
+    background-color: rgb(231, 200, 200);
     flex: 1;
-    text-align: right;
+    text-align: ;
     text-decoration-line: none;
 
 }
   
-  .navbar .logo {
+.navbar .logo {
     padding: 0.5px 10px 0.5px 10px;
     padding: 5px;
 
   }
   
-  .nav-list {
+.nav-list {
     display: inline-block;
     list-style-type: none;
   }
   
-  .nav-list li {
+.nav-list li {
     display: inline-block;
     margin-left: 20px;
   }
   
-  .nav-list a {
+.nav-list a {
     text-decoration: none;
     color: #125372;
     font-size: 25px;
   }
-  .main{
+.main{
     max-width: 1300px;
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
 }
   
-  /* Responsive styles */
+/* Responsive styles */
   @media screen and (max-width: 600px) {
     .navbar .logo,
     .nav-list {
@@ -55,3 +48,8 @@ body
     
   }
   
+
+.extra {
+    width: 100vw;
+    height: 0.2rem;
+}
