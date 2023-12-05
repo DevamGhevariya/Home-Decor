@@ -9,7 +9,7 @@
     padding: 0px;
     background-color: rgb(192, 213, 200);
 }
-.nav{
+nav{
     flex: 1;
     text-align: right;
     text-decoration-line: none;
@@ -67,9 +67,10 @@ body {
   /* Responsive styles */
   @media screen and (max-width: 600px) 
   {
-    .logo 
-    .navbar,
-    .main
+
+    .logo  .navbar
+    .main,
+    
     {
       text-align: center;
       width: 100%;
