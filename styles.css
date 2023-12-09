@@ -1,3 +1,8 @@
+
+.header{
+  position: sticky;
+
+}
 .navbar {
     display: flex;
     padding: 0px;
@@ -5,7 +10,6 @@
     flex: 1;
     text-align: 1;
     text-decoration-line: none;
-
 }
 
 .navbar .logo {
@@ -16,8 +20,8 @@
   
 .nav-list li {
     display: inline-block;
-    margin-left: 5px;
-    padding-left: 150px;
+    margin-left: 25px;
+    padding-left: 10px;
   }
   
 .nav-list a {
@@ -66,8 +70,8 @@
 
 /* Make sure images fill their container */
 .image-item img {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 70%;
   display: block;
 }
 
