@@ -37,36 +37,39 @@
   padding: 0.1%;
 }
 
-.homeimg info{
-  margin-left: 1%;
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: -15px; /* Negative margin to offset padding on individual items */
 }
 
-.body{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-  }
+/* Individual item in the grid */
+.image-item {
+  flex: 0 0 calc(33.33% - 30px); /* 33.33% width with some margin */
+  margin: 15px; /* Space between items */
+  box-sizing: border-box;
+}
 
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 10px));
-    gap: 16px;
-    padding: 16px;
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .image-item {
+      flex: 0 0 calc(50% - 30px); /* Two items per row on smaller screens */
   }
+}
 
-  .gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
+@media (max-width: 480px) {
+  .image-item {
+      flex: 0 0 calc(100% - 30px); /* One item per row on even smaller screens */
   }
+}
 
-  .gallery img:hover {
-    transform: scale(1.1);
-  }
+/* Make sure images fill their container */
+.image-item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 
 /* Responsive styles */
   @media screen and (max-width: 600px) {
