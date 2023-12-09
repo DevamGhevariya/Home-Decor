@@ -14,20 +14,17 @@
 
   }
   
-.nav-list {
-    display: inline-block;
-    list-style-type: none;
-  }
-  
 .nav-list li {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 5px;
+    padding-left: 150px;
   }
   
 .nav-list a {
     text-decoration: none;
     color: #125372;
     font-size: 25px;
+    
   }
 .main{
     max-width: 1300px;
@@ -70,22 +67,6 @@
   .gallery img:hover {
     transform: scale(1.1);
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Responsive styles */
   @media screen and (max-width: 600px) {
