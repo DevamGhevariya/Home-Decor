@@ -85,6 +85,29 @@
   display: block;
 }
 
+
+.header row{ 
+  margin-top: 70px;
+}
+.categories{
+  margin: 30px 0;
+}
+.col-3{
+  flex-basis: 30%; 
+  min-width: 100px; 
+  margin-bottom: 30px;
+}
+.col-3 img{
+  width: 20%;
+  height: 20%;
+}
+small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left:25px;
+  padding-right: 25px;
+  }
+
 /* Responsive styles */
   @media screen and (max-width: 600px) {
     .navbar .logo,
