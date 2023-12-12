@@ -162,14 +162,6 @@
   height: 15rem;
 }
 
-.img_main .img_container .img_2nd_con .image .img p {
-  padding: 1rem;
-  color: rgb(0, 0, 0);
-}
-
-
-
-
 
 /* Responsive styles */
   @media screen and (max-width: 600px) {
