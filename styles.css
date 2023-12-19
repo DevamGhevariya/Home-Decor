@@ -1,3 +1,5 @@
+/* header */
+
 .header{
   background-color: rgb(117, 142, 138);
   width: 100vw;
@@ -40,6 +42,18 @@
     font-size: 25px;
     
   }
+
+/* header */ 
+
+.header row{ 
+  margin-top: 70px;
+}
+
+/*header */
+
+/* header over */ 
+
+/* home main */
 .main{
     max-width: 1300px;
     margin: auto;
@@ -49,45 +63,6 @@
   
 .extra{
   padding: 0.1%;
-}
-
-.image-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: -15px; /* Negative margin to offset padding on individual items */
-}
-
-/* Individual item in the grid */
-.image-item {
-  flex: 0 0 calc(33.33% - 30px); /* 33.33% width with some margin */
-  margin: 15px; /* Space between items */
-  box-sizing: border-box;
-}
-
-/* Responsive styling for smaller screens */
-@media (max-width: 768px) {
-  .image-item {
-      flex: 0 0 calc(50% - 30px); /* Two items per row on smaller screens */
-  }
-}
-
-@media (max-width: 480px) {
-  .image-item {
-      flex: 0 0 calc(100% - 30px); /* One item per row on even smaller screens */
-  }
-}
-
-/* Make sure images fill their container */
-.image-item img {
-  width: 50%;
-  height: 70%;
-  display: block;
-}
-
-
-.header row{ 
-  margin-top: 70px;
 }
 
 .img_main {
@@ -162,9 +137,6 @@
   height: 15rem;
 }
 
-
-
-
 .upcomming {
   width: 100vw;
   height: auto;
@@ -236,6 +208,48 @@
   width: 20rem;
   height: 15rem;
 }
+
+/* home main over*/
+
+
+
+
+/* product page */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: -15px; /* Negative margin to offset padding on individual items */
+}
+
+/* Individual item in the grid */
+.image-item {
+  flex: 0 0 calc(33.33% - 30px); /* 33.33% width with some margin */
+  margin: 15px; /* Space between items */
+  box-sizing: border-box;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .image-item {
+      flex: 0 0 calc(50% - 30px); /* Two items per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .image-item {
+      flex: 0 0 calc(100% - 30px); /* One item per row on even smaller screens */
+  }
+}
+
+/* Make sure images fill their container */
+.image-item img {
+  width: 50%;
+  height: 70%;
+  display: block;
+}
+
+/* product over */
 
 
 /* Responsive styles */
